@@ -6,7 +6,7 @@ Description: 'SAM Template for ServerlessMicroserviceApp'
 # ======================== GLOBAL ======================== #
 Globals:
   Function:
-    Runtime: python3.8
+    Runtime: python3.9
     Handler: app.lambda_handler
     Timeout: 60 # default is 3 seconds the function can run before it is stopped
     Environment:
